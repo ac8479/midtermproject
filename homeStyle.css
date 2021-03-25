@@ -1,0 +1,512 @@
+.your-style {
+    font-family: 'DIN Next LT Pro';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'DIN Next LT Pro';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #0f1822;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #ff4654;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 10px 20px #000000;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.logo .logoMain {
+    display: flex;
+}
+.logo:hover .logoMain {
+    display: none;
+}
+
+.logo .altTop {
+    display: none;
+}
+.logo:hover .altTop {
+    display: flex;
+}
+
+.header a {
+    color: #0f1822;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.header a:hover {
+    color: #eaeeb2;
+}
+
+.homeMatch {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5vw;
+}
+.homeMatchGrid1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1;
+}
+p.homeLine1{
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+p.valcross{
+    font-family: 'Valorant';
+    font-size: 8vw;
+    color: #ff4654;
+    padding-top: 1vw;
+    margin: 0;
+}
+p.homeLine2{
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.homeMatchGrid2 {
+    line-height: 1;
+}
+.homeGrid2Container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #14202e;
+    width: 40vw;
+    height: 35vw;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.homeGrid2Container:hover {
+    box-shadow: 0px 0px 30px #000000;
+
+}
+.homeGrid2Container a{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 40vw;
+    height: 35vw;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.homeScore {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    line-height: 1;
+}
+.homeTeam1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+    margin: 0;
+    text-align: center;
+}
+.homeTeam1 img{
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 5vw;
+    height: 5vw;
+}
+p.homeStat{
+    font-family: 'Tungsten';
+    font-size: 4vw;
+    color: #ece7e1;
+
+}
+.homeTeam2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+    margin: 0;
+    text-align: center;
+}
+.homeTeam2 img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 5vw;
+    height: 5vw;
+    padding: 1vw;
+}
+.homeStream{
+    margin-left: auto;
+    margin-right: auto;
+    width: 32vw;
+    height: 18vw;
+}
+p.featuredPlayersTitle{
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+    padding-top: 2vw;
+    padding-left: 8vw;
+    padding-right: 4vw;
+    padding-bottom: 1vw;
+}
+.featuredPlayersGrid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    padding-bottom: 5vw;
+}
+.featuredPlayersCon2 {
+    display: flex;
+    justify-content: center;
+}
+.featuredPlayersBox2 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredPlayersBox2:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredPlayersBox2 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredPlayersBox2 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredPlayersCon3 {
+    display: flex;
+    justify-content: center;
+}
+.featuredPlayersBox3 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredPlayersBox3:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredPlayersBox3 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredPlayersBox3 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredPlayersCon4 {
+    display: flex;
+    justify-content: center;
+}
+.featuredPlayersBox4 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredPlayersBox4:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredPlayersBox4 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredPlayersBox4 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredPlayersCon5 {
+    display: flex;
+    justify-content: center;
+}
+.featuredPlayersBox5 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredPlayersBox5:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredPlayersBox5 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredPlayersBox5 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredPlayersCon6 {
+    display: flex;
+    justify-content: center;
+}
+.featuredPlayersBox6 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredPlayersBox6:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredPlayersBox6 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredPlayersBox6 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+p.featuredOrgsTitle{
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+    padding-top: 2vw;
+    padding-left: 8vw;
+    padding-right: 4vw;
+    padding-bottom: 1vw;
+}
+.featuredOrgsGrid {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    padding-bottom: 10vw;
+}
+.featuredOrgsCon2 {
+    display: flex;
+    justify-content: center;
+}
+.featuredOrgsBox2 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox2:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredOrgsBox2 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox2 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsCon3 {
+    display: flex;
+    justify-content: center;
+}
+.featuredOrgsBox3 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox3:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredOrgsBox3 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox3 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsCon4 {
+    display: flex;
+    justify-content: center;
+}
+.featuredOrgsBox4 {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox4:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredOrgsBox4 img{
+    padding-top: 0.5vw;
+    padding-left: 0.75vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox4 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsCon5 {
+    display: flex;
+    justify-content: center;
+}
+.featuredOrgsBox5 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox5:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredOrgsBox5 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox5 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsCon6 {
+    display: flex;
+    justify-content: center;
+}
+.featuredOrgsBox6 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox6:hover {
+    box-shadow: 0px 0px 30px #000000;
+}
+.featuredOrgsBox6 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox6 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
