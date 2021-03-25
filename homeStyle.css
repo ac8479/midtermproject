@@ -176,10 +176,8 @@ p.featuredPlayersTitle{
     color: #ece7e1;
     letter-spacing: 0.5vw;
     font-weight: bold;
-    padding-top: 2vw;
-    padding-left: 8vw;
-    padding-right: 4vw;
-    padding-bottom: 1vw;
+    padding: 2vw;
+    text-align: center;
 }
 .featuredPlayersGrid {
     display: flex;
@@ -220,6 +218,17 @@ p.featuredPlayersTitle{
     color: #ece7e1;
     margin: 0;
 }
+.featuredPlayersBox2 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    display: grid;
+    margin: auto;
+    flex-direction: column;
+    text-decoration: none;
+}
 .featuredPlayersCon3 {
     display: flex;
     justify-content: center;
@@ -249,6 +258,15 @@ p.featuredPlayersTitle{
     font-size: 2vw;
     color: #ece7e1;
     margin: 0;
+}
+.featuredPlayersBox3 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
 }
 .featuredPlayersCon4 {
     display: flex;
@@ -280,6 +298,15 @@ p.featuredPlayersTitle{
     color: #ece7e1;
     margin: 0;
 }
+.featuredPlayersBox4 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
 .featuredPlayersCon5 {
     display: flex;
     justify-content: center;
@@ -309,6 +336,15 @@ p.featuredPlayersTitle{
     font-size: 2vw;
     color: #ece7e1;
     margin: 0;
+}
+.featuredPlayersBox5 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
 }
 .featuredPlayersCon6 {
     display: flex;
@@ -340,16 +376,23 @@ p.featuredPlayersTitle{
     color: #ece7e1;
     margin: 0;
 }
+.featuredPlayersBox6 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
 p.featuredOrgsTitle{
     font-family: 'DIN Next LT Pro';
     font-size: 2vw;
     color: #ece7e1;
     letter-spacing: 0.5vw;
     font-weight: bold;
-    padding-top: 2vw;
-    padding-left: 8vw;
-    padding-right: 4vw;
-    padding-bottom: 1vw;
+    padding: 2vw;
+    text-align: center;
 }
 .featuredOrgsGrid {
     width: 100%;
@@ -371,6 +414,16 @@ p.featuredOrgsTitle{
     background-color: #14202e;
     border-radius: 10px;
     transition-duration: 0.25s;
+}
+.featuredOrgsBox2 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
 }
 .featuredOrgsBox2:hover {
     box-shadow: 0px 0px 30px #000000;
@@ -418,6 +471,16 @@ p.featuredOrgsTitle{
     color: #ece7e1;
     margin: 0;
 }
+.featuredOrgsBox3 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
 .featuredOrgsCon4 {
     display: flex;
     justify-content: center;
@@ -450,6 +513,16 @@ p.featuredOrgsTitle{
     color: #ece7e1;
     margin: 0;
 }
+.featuredOrgsBox4 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
 .featuredOrgsCon5 {
     display: flex;
     justify-content: center;
@@ -480,6 +553,16 @@ p.featuredOrgsTitle{
     color: #ece7e1;
     margin: 0;
 }
+.featuredOrgsBox5 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
 .featuredOrgsCon6 {
     display: flex;
     justify-content: center;
@@ -509,4 +592,14 @@ p.featuredOrgsTitle{
     font-size: 2vw;
     color: #ece7e1;
     margin: 0;
+}
+.featuredOrgsBox6 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
 }

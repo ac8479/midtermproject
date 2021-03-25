@@ -1,0 +1,449 @@
+.your-style {
+    font-family: 'DIN Next LT Pro';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'DIN Next LT Pro';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #0f1822;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #ff4654;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 10px 20px #000000;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.logo .logoMain {
+    display: flex;
+}
+.logo:hover .logoMain {
+    display: none;
+}
+
+.logo .altTop {
+    display: none;
+}
+.logo:hover .altTop {
+    display: flex;
+}
+
+.header a {
+    color: #0f1822;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.header a:hover {
+    color: #eaeeb2;
+}
+.playerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.playerCardContainer {
+    padding: 1vw;
+}
+.playerCard {
+    width: 21vw;
+    height: 35vw;
+    border-radius: 10px;
+    background-color: #14202e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+
+}
+.playerCard img{
+    width: 15vw;
+    height: 20vw;
+    margin-top: -1vw;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.playerCard p{
+    width: 15vw;
+    height: 7vw;
+    border-radius: 10px;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.playerSettingsContainer {
+    padding: 1vw;
+}
+.playerSettings {
+    width: 50vw;
+    height: 35vw;
+    border-radius: 10px;
+    background-color: #14202e;
+}
+p.sensitivityHeading {
+    text-align: center;
+    padding: 0.5vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.25vw;
+    font-weight: bold;
+    letter-spacing: 1vw;
+    color: #ece7e1;
+    margin: 0;
+    border-bottom: 1px solid #ece7e1;
+}
+.sensitivitySettingsGrid{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border-bottom: 1px solid #ece7e1;
+}
+.sensitivityBox1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.valorantSensitivity {
+  font-family: 'DIN Next LT Pro';
+  padding-left: 2vw;
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+}
+p.valorantSensitivityValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.sensitivityBox2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.DPI {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.DPIValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.sensitivityBox3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.eDPI {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+
+p.eDPIValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.sensitivityBox4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.scopedSensitivity {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.scopedSensitivityValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.sensitivityBox5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.hertz {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.hertzValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.keybindsHeading {
+    text-align: center;
+    padding: 0.5vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.25vw;
+    font-weight: bold;
+    letter-spacing: 1vw;
+    color: #ece7e1;
+    margin: 0;
+    border-bottom: 1px solid #ece7e1;
+}
+.keybindsSettingsGrid{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid #ece7e1;
+}
+.keybindsBox1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.ability1 {
+  font-family: 'DIN Next LT Pro';
+  padding-left: 2vw;
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+}
+p.ability1Value {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.keybindsBox2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.ability2 {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.ability2Value {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.keybindsBox3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.ability3 {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+
+p.ability3Value {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.keybindsBox4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.ability4 {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.ability4Value {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.crosshairHeading {
+    text-align: center;
+    padding: 0.5vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.25vw;
+    font-weight: bold;
+    letter-spacing: 1vw;
+    color: #ece7e1;
+    margin: 0;
+    border-bottom: 1px solid #ece7e1;
+}
+.crosshairSettingsGrid{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.crosshairBox1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.color {
+  font-family: 'DIN Next LT Pro';
+  padding-left: 2vw;
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+}
+p.colorValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.crosshairBox2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.outlines {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.outlinesValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.crosshairBox3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.centerDot {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+
+p.centerDotValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.crosshairBox4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.innerLines {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.innerLinesValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.crosshairBox5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.outerLines {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.outerLinesValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}
+.crosshairBox6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p.fadeMovementFiringError {
+  font-family: 'DIN Next LT Pro';
+  font-size: 1vw;
+  color: #ece7e1;
+  margin: 0;
+  padding-left: 2vw;
+}
+p.fadeMovementFiringErrorValue {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #eaeeb2;
+  margin: 0;
+  padding-left: 2vw;
+}

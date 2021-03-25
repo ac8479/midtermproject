@@ -1,0 +1,139 @@
+.your-style {
+    font-family: 'DIN Next LT Pro';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'DIN Next LT Pro';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #0f1822;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #ff4654;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 10px 20px #000000;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.logo .logoMain {
+    display: flex;
+}
+.logo:hover .logoMain {
+    display: none;
+}
+
+.logo .altTop {
+    display: none;
+}
+.logo:hover .altTop {
+    display: flex;
+}
+
+.header a {
+    color: #0f1822;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.header a:hover {
+    color: #eaeeb2;
+}
+
+.orgMatchesContainer {
+    padding: 1vw;
+}
+.orgMatches {
+    width: 50vw;
+    height: 35vw;
+    border-radius: 10px;
+    background-color: #14202e;
+    margin:auto;
+}
+p.matchesHeading {
+    text-align: center;
+    padding: 1vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    font-weight: bold;
+    letter-spacing: 1vw;
+    color: #ece7e1;
+    margin: 0;
+    border-bottom: 1px solid #ece7e1;
+}
+p.match1 {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #ece7e1;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ece7e1;
+}
+p.match2 {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #ece7e1;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ece7e1;
+}
+p.match3 {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #ece7e1;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ece7e1;
+}
+p.match4 {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #ece7e1;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ece7e1;
+}
+p.match5 {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #ece7e1;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ece7e1;
+}
+p.match6 {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #ece7e1;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ece7e1;
+}
+p.match7 {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #ece7e1;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ece7e1;
+}
+p.match8 {
+  font-family: 'Tungsten';
+  font-size: 2vw;
+  color: #ece7e1;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ece7e1;
+}
