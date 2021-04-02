@@ -1,7 +1,22 @@
-.your-style {
+@font-face {
     font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Regular.ttf');
     font-weight: normal;
-    font-style: normal;
+}
+@font-face {
+    font-family: 'Valorant';
+    src: url('Valorant Font.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Tungsten';
+    src: url('Tungsten-Bold.ttf');
+    font-weight: normal;
 }
 
 body {
@@ -55,6 +70,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 4vw;
 }
 .orgCardContainer {
     padding: 1vw;
@@ -74,7 +90,7 @@ body {
 }
 .orgCard img{
     width: 15vw;
-    height: 20vw;
+    height: 15vw;
     margin-top: -1vw;
     margin-bottom: 0;
     margin-left: auto;
@@ -91,6 +107,7 @@ body {
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
+    padding: 1vw;
 }
 .orgMatchesContainer {
     padding: 1vw;
@@ -110,71 +127,127 @@ p.matchesHeading {
     letter-spacing: 1vw;
     color: #ece7e1;
     margin: 0;
-    border-bottom: 1px solid #ece7e1;
+    border-bottom: 1px solid #233952;
 }
-p.match1 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+p.matchContext1 {
+    padding: 1vw;
+    padding-bottom: 0vw;
+    padding-top: 2vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #ece7e1;
+    margin: 0;
 }
-p.match2 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.matchesGrid1 {
+    padding: 1vw;
+    width: 48vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    margin: 0;
 }
-p.match3 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.opponent {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
 }
-p.match4 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.map {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
 }
-p.match5 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.score {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
 }
-p.match6 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.opponent1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
 }
-p.match7 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.map1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
 }
-p.match8 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.score1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.opponent2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.map2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.score2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.opponent3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.map3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.score3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+p.matchContext2 {
+    padding: 1vw;
+    padding-bottom: 0vw;
+    padding-top: 2vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #ece7e1;
+    margin: 0;
+}
+.matchesGrid2 {
+    padding: 1vw;
+    width: 48vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    margin: 0;
 }
 p.orgPlayersTitle{
     font-family: 'DIN Next LT Pro';
@@ -191,7 +264,7 @@ p.orgPlayersTitle{
     height: 50%;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
-    padding-bottom: 5vw;
+    padding-bottom: 10vw;
 }
 .orgPlayersCon2 {
     display: flex;
@@ -208,7 +281,7 @@ p.orgPlayersTitle{
     transition-duration: 0.25s;
 }
 .orgPlayersBox2:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .orgPlayersBox2 img{
     padding-top: 0.5vw;
@@ -249,7 +322,7 @@ p.orgPlayersTitle{
     transition-duration: 0.25s;
 }
 .orgPlayersBox3:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .orgPlayersBox3 img{
     padding-top: 0.5vw;
@@ -288,7 +361,7 @@ p.orgPlayersTitle{
     transition-duration: 0.25s;
 }
 .orgPlayersBox4:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .orgPlayersBox4 img{
     padding-top: 0.5vw;
@@ -327,7 +400,7 @@ p.orgPlayersTitle{
     transition-duration: 0.25s;
 }
 .orgPlayersBox5:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .orgPlayersBox5 img{
     padding-top: 0.5vw;
@@ -366,7 +439,7 @@ p.orgPlayersTitle{
     transition-duration: 0.25s;
 }
 .orgPlayersBox6:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .orgPlayersBox6 img{
     padding-top: 0.5vw;

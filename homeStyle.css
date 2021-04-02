@@ -1,7 +1,22 @@
-.your-style {
+@font-face {
     font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Regular.ttf');
     font-weight: normal;
-    font-style: normal;
+}
+@font-face {
+    font-family: 'Valorant';
+    src: url('Valorant Font.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Tungsten';
+    src: url('Tungsten-Bold.ttf');
+    font-weight: normal;
 }
 
 body {
@@ -101,7 +116,7 @@ p.homeLine2{
     transition-duration: 0.25s;
 }
 .homeGrid2Container:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 
 }
 .homeGrid2Container a{
@@ -203,7 +218,7 @@ p.featuredPlayersTitle{
     transition-duration: 0.25s;
 }
 .featuredPlayersBox2:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredPlayersBox2 img{
     padding-top: 0.5vw;
@@ -244,7 +259,7 @@ p.featuredPlayersTitle{
     transition-duration: 0.25s;
 }
 .featuredPlayersBox3:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredPlayersBox3 img{
     padding-top: 0.5vw;
@@ -283,7 +298,7 @@ p.featuredPlayersTitle{
     transition-duration: 0.25s;
 }
 .featuredPlayersBox4:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredPlayersBox4 img{
     padding-top: 0.5vw;
@@ -322,7 +337,7 @@ p.featuredPlayersTitle{
     transition-duration: 0.25s;
 }
 .featuredPlayersBox5:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredPlayersBox5 img{
     padding-top: 0.5vw;
@@ -361,7 +376,7 @@ p.featuredPlayersTitle{
     transition-duration: 0.25s;
 }
 .featuredPlayersBox6:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredPlayersBox6 img{
     padding-top: 0.5vw;
@@ -426,7 +441,7 @@ p.featuredOrgsTitle{
     text-decoration: none;
 }
 .featuredOrgsBox2:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox2 img{
     padding-top: 0.5vw;
@@ -456,7 +471,7 @@ p.featuredOrgsTitle{
     transition-duration: 0.25s;
 }
 .featuredOrgsBox3:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox3 img{
     padding-top: 0.5vw;
@@ -497,7 +512,7 @@ p.featuredOrgsTitle{
     transition-duration: 0.25s;
 }
 .featuredOrgsBox4:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox4 img{
     padding-top: 0.5vw;
@@ -538,7 +553,7 @@ p.featuredOrgsTitle{
     transition-duration: 0.25s;
 }
 .featuredOrgsBox5:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox5 img{
     padding-top: 0.5vw;
@@ -578,7 +593,7 @@ p.featuredOrgsTitle{
     transition-duration: 0.25s;
 }
 .featuredOrgsBox6:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox6 img{
     padding-top: 0.5vw;

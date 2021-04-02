@@ -1,7 +1,22 @@
-.your-style {
+@font-face {
     font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Regular.ttf');
     font-weight: normal;
-    font-style: normal;
+}
+@font-face {
+    font-family: 'Valorant';
+    src: url('Valorant Font.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Tungsten';
+    src: url('Tungsten-Bold.ttf');
+    font-weight: normal;
 }
 
 body {
@@ -54,10 +69,11 @@ body {
 
 .orgMatchesContainer {
     padding: 1vw;
+    padding-top: 4vw;
+    padding-bottom: 10vw;
 }
 .orgMatches {
-    width: 50vw;
-    height: 35vw;
+    width: 73vw;
     border-radius: 10px;
     background-color: #14202e;
     margin:auto;
@@ -71,69 +87,174 @@ p.matchesHeading {
     letter-spacing: 1vw;
     color: #ece7e1;
     margin: 0;
-    border-bottom: 1px solid #ece7e1;
+    border-bottom: 1px solid #233952;
 }
-p.match1 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+p.matchContext1 {
+    padding: 1vw;
+    padding-bottom: 0vw;
+    padding-top: 2vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #ece7e1;
+    margin: 0;
+    text-align: center;
 }
-p.match2 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.matchesGrid1 {
+    padding: 1vw;
+    width: 71vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    margin: 0;
 }
-p.match3 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.team1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+    text-align: right;
 }
-p.match4 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.score {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+    text-align: center;
 }
-p.match5 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.team2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
 }
-p.match6 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.team11 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+    text-align: right;
 }
-p.match7 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.score1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+    text-align: center;
 }
-p.match8 {
-  font-family: 'Tungsten';
-  font-size: 2vw;
-  color: #ece7e1;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ece7e1;
+.team21 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.team12 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+    text-align: right;
+}
+.score2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+    text-align: center;
+}
+.team22 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.team13 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+    text-align: right;
+}
+.score3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+    text-align: center;
+}
+.team23 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+p.matchContext2 {
+    padding: 1vw;
+    padding-bottom: 0vw;
+    padding-top: 2vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #ece7e1;
+    margin: 0;
+    text-align: center;
+}
+.matchesGrid2 {
+    padding: 1vw;
+    width: 71vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    margin: 0;
+}
+p.matchContext3 {
+    padding: 1vw;
+    padding-bottom: 0vw;
+    padding-top: 2vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #ece7e1;
+    margin: 0;
+    text-align: center;
+}
+.matchesGrid3 {
+    padding: 1vw;
+    width: 71vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    margin: 0;
+}
+p.matchContext4 {
+    padding: 1vw;
+    padding-bottom: 0vw;
+    padding-top: 2vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #ece7e1;
+    margin: 0;
+    text-align: center;
+}
+.matchesGrid4 {
+    padding: 1vw;
+    width: 71vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    margin: 0;
+    padding-bottom: 2vw;
 }

@@ -1,7 +1,22 @@
-.your-style {
+@font-face {
     font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Regular.ttf');
     font-weight: normal;
-    font-style: normal;
+}
+@font-face {
+    font-family: 'Valorant';
+    src: url('Valorant Font.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Tungsten';
+    src: url('Tungsten-Bold.ttf');
+    font-weight: normal;
 }
 
 body {
@@ -63,15 +78,15 @@ p.featuredOrgsTitle{
 }
 .featuredOrgsGrid {
     width: 100%;
-    height: 30vw;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding-bottom: 10vw;
+    padding-bottom: 8vw;
 }
 .featuredOrgsCon2 {
     display: flex;
     justify-content: center;
+    padding-bottom: 3vw;
 }
 .featuredOrgsBox2 {
     display: flex;
@@ -84,7 +99,7 @@ p.featuredOrgsTitle{
     transition-duration: 0.25s;
 }
 .featuredOrgsBox2:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox2 img{
     padding-top: 0.5vw;
@@ -112,6 +127,7 @@ p.featuredOrgsTitle{
 .featuredOrgsCon3 {
     display: flex;
     justify-content: center;
+    padding-bottom: 3vw;
 }
 .featuredOrgsBox3 {
     display: flex;
@@ -124,7 +140,7 @@ p.featuredOrgsTitle{
     transition-duration: 0.25s;
 }
 .featuredOrgsBox3:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox3 img{
     padding-top: 0.5vw;
@@ -152,6 +168,7 @@ p.featuredOrgsTitle{
 .featuredOrgsCon4 {
     display: flex;
     justify-content: center;
+    padding-bottom: 3vw;
 }
 .featuredOrgsBox4 {
     display: flex;
@@ -165,11 +182,10 @@ p.featuredOrgsTitle{
     transition-duration: 0.25s;
 }
 .featuredOrgsBox4:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox4 img{
     padding-top: 0.5vw;
-    padding-left: 0.75vw;
     width: 9vw;
     height: 9vw;
     display: grid;
@@ -194,6 +210,7 @@ p.featuredOrgsTitle{
 .featuredOrgsCon5 {
     display: flex;
     justify-content: center;
+    padding-bottom: 3vw;
 }
 .featuredOrgsBox5 {
     display: flex;
@@ -206,7 +223,7 @@ p.featuredOrgsTitle{
     transition-duration: 0.25s;
 }
 .featuredOrgsBox5:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox5 img{
     padding-top: 0.5vw;
@@ -234,6 +251,7 @@ p.featuredOrgsTitle{
 .featuredOrgsCon6 {
     display: flex;
     justify-content: center;
+    padding-bottom: 3vw;
 }
 .featuredOrgsBox6 {
     display: flex;
@@ -246,7 +264,7 @@ p.featuredOrgsTitle{
     transition-duration: 0.25s;
 }
 .featuredOrgsBox6:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .featuredOrgsBox6 img{
     padding-top: 0.5vw;
@@ -262,6 +280,422 @@ p.featuredOrgsTitle{
     margin: 0;
 }
 .featuredOrgsBox6 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon9 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox9 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox9:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox9 img{
+    padding-top: 0.5vw;
+    padding-left: 0.75vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox9 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox9 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon10 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox10 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox10:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox10 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox10 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox10 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon11 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox11 {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox11:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox11 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox11 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox11 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon12 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox12 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox12:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox12 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox12 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox12 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon13 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox13 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox13:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox13 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox13 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox13 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon16 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox16 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox16:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox16 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox16 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox16 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon17 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox17 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox17:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox17 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox17 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox17 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon18 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox18 {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox18:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox18 img{
+    padding-top: 0.5vw;
+    padding-left: 1.25vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox18 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox18 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon19 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox19 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox19:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox19 img{
+    padding-top: 0.5vw;
+    padding-left: 0.75vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox19 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox19 a{
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.featuredOrgsCon20 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.featuredOrgsBox20 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.featuredOrgsBox20:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.featuredOrgsBox20 img{
+    padding-top: 0.5vw;
+    padding-left: 0.75vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.featuredOrgsBox20 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.5vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.featuredOrgsBox20 a{
     display: flex;
     justify-content: center;
     width: 13vw;

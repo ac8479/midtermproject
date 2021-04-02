@@ -1,7 +1,22 @@
-.your-style {
+@font-face {
     font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Regular.ttf');
     font-weight: normal;
-    font-style: normal;
+}
+@font-face {
+    font-family: 'Valorant';
+    src: url('Valorant Font.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Tungsten';
+    src: url('Tungsten-Bold.ttf');
+    font-weight: normal;
 }
 
 body {
@@ -68,7 +83,7 @@ p.sentinelsPlayersTitle{
     height: 50%;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
-    padding-bottom: 5vw;
+    padding-bottom: 4vw;
 }
 .sentinelsPlayersCon2 {
     display: flex;
@@ -85,7 +100,7 @@ p.sentinelsPlayersTitle{
     transition-duration: 0.25s;
 }
 .sentinelsPlayersBox2:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .sentinelsPlayersBox2 img{
     padding-top: 0.5vw;
@@ -124,7 +139,7 @@ p.sentinelsPlayersTitle{
     transition-duration: 0.25s;
 }
 .sentinelsPlayersBox3:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .sentinelsPlayersBox3 img{
     padding-top: 0.5vw;
@@ -163,7 +178,7 @@ p.sentinelsPlayersTitle{
     transition-duration: 0.25s;
 }
 .sentinelsPlayersBox4:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .sentinelsPlayersBox4 img{
     padding-top: 0.5vw;
@@ -202,7 +217,7 @@ p.sentinelsPlayersTitle{
     transition-duration: 0.25s;
 }
 .sentinelsPlayersBox5:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .sentinelsPlayersBox5 img{
     padding-top: 0.5vw;
@@ -241,7 +256,7 @@ p.sentinelsPlayersTitle{
     transition-duration: 0.25s;
 }
 .sentinelsPlayersBox6:hover {
-    box-shadow: 0px 0px 30px #000000;
+    box-shadow: 0px 0px 30px #ff4654;
 }
 .sentinelsPlayersBox6 img{
     padding-top: 0.5vw;
@@ -257,6 +272,1071 @@ p.sentinelsPlayersTitle{
     margin: 0;
 }
 .sentinelsPlayersBox6 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+p.fazePlayersTitle{
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+    padding: 2vw;
+    text-align: center;
+}
+.fazePlayersGrid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    padding-bottom: 4vw;
+}
+.fazePlayersCon2 {
+    display: flex;
+    justify-content: center;
+}
+.fazePlayersBox2 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.fazePlayersBox2:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.fazePlayersBox2 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.fazePlayersBox2 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.fazePlayersBox2 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.fazePlayersCon3 {
+    display: flex;
+    justify-content: center;
+}
+.fazePlayersBox3 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.fazePlayersBox3:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.fazePlayersBox3 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.fazePlayersBox3 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.fazePlayersBox3 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.fazePlayersCon4 {
+    display: flex;
+    justify-content: center;
+}
+.fazePlayersBox4 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.fazePlayersBox4:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.fazePlayersBox4 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.fazePlayersBox4 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.fazePlayersBox4 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.fazePlayersCon5 {
+    display: flex;
+    justify-content: center;
+}
+.fazePlayersBox5 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.fazePlayersBox5:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.fazePlayersBox5 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.fazePlayersBox5 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.fazePlayersBox5 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.fazePlayersCon6 {
+    display: flex;
+    justify-content: center;
+}
+.fazePlayersBox6 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.fazePlayersBox6:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.fazePlayersBox6 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.fazePlayersBox6 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.fazePlayersBox6 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+p.envyPlayersTitle{
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+    padding: 2vw;
+    text-align: center;
+}
+.envyPlayersGrid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    padding-bottom: 4vw;
+}
+.envyPlayersCon2 {
+    display: flex;
+    justify-content: center;
+}
+.envyPlayersBox2 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.envyPlayersBox2:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.envyPlayersBox2 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.envyPlayersBox2 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.envyPlayersBox2 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.envyPlayersCon3 {
+    display: flex;
+    justify-content: center;
+}
+.envyPlayersBox3 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.envyPlayersBox3:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.envyPlayersBox3 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.envyPlayersBox3 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.envyPlayersBox3 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.envyPlayersCon4 {
+    display: flex;
+    justify-content: center;
+}
+.envyPlayersBox4 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.envyPlayersBox4:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.envyPlayersBox4 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.envyPlayersBox4 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.envyPlayersBox4 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.envyPlayersCon5 {
+    display: flex;
+    justify-content: center;
+}
+.envyPlayersBox5 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.envyPlayersBox5:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.envyPlayersBox5 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.envyPlayersBox5 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.envyPlayersBox5 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.envyPlayersCon6 {
+    display: flex;
+    justify-content: center;
+}
+.envyPlayersBox6 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.envyPlayersBox6:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.envyPlayersBox6 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.envyPlayersBox6 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.envyPlayersBox6 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+p.gengPlayersTitle{
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+    padding: 2vw;
+    text-align: center;
+}
+.gengPlayersGrid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    padding-bottom: 4vw;
+}
+.gengPlayersCon2 {
+    display: flex;
+    justify-content: center;
+}
+.gengPlayersBox2 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.gengPlayersBox2:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.gengPlayersBox2 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.gengPlayersBox2 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.gengPlayersBox2 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.gengPlayersCon3 {
+    display: flex;
+    justify-content: center;
+}
+.gengPlayersBox3 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.gengPlayersBox3:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.gengPlayersBox3 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.gengPlayersBox3 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.gengPlayersBox3 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.gengPlayersCon4 {
+    display: flex;
+    justify-content: center;
+}
+.gengPlayersBox4 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.gengPlayersBox4:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.gengPlayersBox4 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.gengPlayersBox4 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.gengPlayersBox4 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.gengPlayersCon5 {
+    display: flex;
+    justify-content: center;
+}
+.gengPlayersBox5 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.gengPlayersBox5:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.gengPlayersBox5 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.gengPlayersBox5 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.gengPlayersBox5 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.gengPlayersCon6 {
+    display: flex;
+    justify-content: center;
+}
+.gengPlayersBox6 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.gengPlayersBox6:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.gengPlayersBox6 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.gengPlayersBox6 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.gengPlayersBox6 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+p.luminosityPlayersTitle{
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+    padding: 2vw;
+    text-align: center;
+}
+.luminosityPlayersGrid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    padding-bottom: 4vw;
+}
+.luminosityPlayersCon2 {
+    display: flex;
+    justify-content: center;
+}
+.luminosityPlayersBox2 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.luminosityPlayersBox2:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.luminosityPlayersBox2 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.luminosityPlayersBox2 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.luminosityPlayersBox2 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.luminosityPlayersCon3 {
+    display: flex;
+    justify-content: center;
+}
+.luminosityPlayersBox3 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.luminosityPlayersBox3:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.luminosityPlayersBox3 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.luminosityPlayersBox3 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.luminosityPlayersBox3 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.luminosityPlayersCon4 {
+    display: flex;
+    justify-content: center;
+}
+.luminosityPlayersBox4 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.luminosityPlayersBox4:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.luminosityPlayersBox4 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.luminosityPlayersBox4 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.luminosityPlayersBox4 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.luminosityPlayersCon5 {
+    display: flex;
+    justify-content: center;
+}
+.luminosityPlayersBox5 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.luminosityPlayersBox5:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.luminosityPlayersBox5 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.luminosityPlayersBox5 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.luminosityPlayersBox5 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.luminosityPlayersCon6 {
+    display: flex;
+    justify-content: center;
+}
+.luminosityPlayersBox6 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.luminosityPlayersBox6:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.luminosityPlayersBox6 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.luminosityPlayersBox6 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.luminosityPlayersBox6 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+p.hundredtPlayersTitle{
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+    padding: 2vw;
+    text-align: center;
+}
+.hundredtPlayersGrid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    padding-bottom: 10vw;
+}
+.hundredtPlayersCon2 {
+    display: flex;
+    justify-content: center;
+}
+.hundredtPlayersBox2 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.hundredtPlayersBox2:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.hundredtPlayersBox2 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.hundredtPlayersBox2 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.hundredtPlayersBox2 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.hundredtPlayersCon3 {
+    display: flex;
+    justify-content: center;
+}
+.hundredtPlayersBox3 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.hundredtPlayersBox3:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.hundredtPlayersBox3 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.hundredtPlayersBox3 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.hundredtPlayersBox3 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.hundredtPlayersCon4 {
+    display: flex;
+    justify-content: center;
+}
+.hundredtPlayersBox4 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.hundredtPlayersBox4:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.hundredtPlayersBox4 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.hundredtPlayersBox4 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.hundredtPlayersBox4 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.hundredtPlayersCon5 {
+    display: flex;
+    justify-content: center;
+}
+.hundredtPlayersBox5 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.hundredtPlayersBox5:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.hundredtPlayersBox5 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.hundredtPlayersBox5 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.hundredtPlayersBox5 a{
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.hundredtPlayersCon6 {
+    display: flex;
+    justify-content: center;
+}
+.hundredtPlayersBox6 {
+    display: flex;
+    justify-content: center;
+    width: 13vw;
+    height: 13vw;
+    display: grid;
+    background-color: #14202e;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.hundredtPlayersBox6:hover {
+    box-shadow: 0px 0px 30px #ff4654;
+}
+.hundredtPlayersBox6 img{
+    padding-top: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+    display: grid;
+}
+.hundredtPlayersBox6 p{
+    text-align: center;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    color: #ece7e1;
+    margin: 0;
+}
+.hundredtPlayersBox6 a{
     justify-content: center;
     width: 13vw;
     height: 13vw;

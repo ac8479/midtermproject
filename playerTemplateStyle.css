@@ -1,7 +1,22 @@
-.your-style {
+@font-face {
     font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url('DINNextLTPro-Regular.ttf');
     font-weight: normal;
-    font-style: normal;
+}
+@font-face {
+    font-family: 'Valorant';
+    src: url('Valorant Font.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Tungsten';
+    src: url('Tungsten-Bold.ttf');
+    font-weight: normal;
 }
 
 body {
@@ -55,6 +70,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 4vw;
 }
 .playerCardContainer {
     padding: 1vw;
@@ -91,6 +107,7 @@ body {
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
+    padding: 1vw;
 }
 .playerSettingsContainer {
     padding: 1vw;
@@ -104,13 +121,14 @@ body {
 p.sensitivityHeading {
     text-align: center;
     padding: 0.5vw;
+    padding-top: 0.6vw;
     font-family: 'DIN Next LT Pro';
     font-size: 1.25vw;
     font-weight: bold;
     letter-spacing: 1vw;
     color: #ece7e1;
     margin: 0;
-    border-bottom: 1px solid #ece7e1;
+    border-bottom: 1px solid #233952;
 }
 .sensitivitySettingsGrid{
   padding-top: 1vw;
@@ -119,7 +137,7 @@ p.sensitivityHeading {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  border-bottom: 1px solid #ece7e1;
+  border-bottom: 1px solid #233952;
 }
 .sensitivityBox1{
   display: flex;
@@ -226,7 +244,7 @@ p.keybindsHeading {
     letter-spacing: 1vw;
     color: #ece7e1;
     margin: 0;
-    border-bottom: 1px solid #ece7e1;
+    border-bottom: 1px solid #233952;
 }
 .keybindsSettingsGrid{
   padding-top: 1vw;
@@ -234,7 +252,7 @@ p.keybindsHeading {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  border-bottom: 1px solid #ece7e1;
+  border-bottom: 1px solid #233952;
 }
 .keybindsBox1{
   display: flex;
@@ -322,7 +340,7 @@ p.crosshairHeading {
     letter-spacing: 1vw;
     color: #ece7e1;
     margin: 0;
-    border-bottom: 1px solid #ece7e1;
+    border-bottom: 1px solid #233952;
 }
 .crosshairSettingsGrid{
   padding-top: 1vw;
@@ -447,3 +465,260 @@ p.fadeMovementFiringErrorValue {
   margin: 0;
   padding-left: 2vw;
 }
+
+.matchHistory {
+  padding: 1vw;
+  padding-bottom: 10vw;
+}
+.matchHistoryContainer{
+  width: 73vw;
+  height: 35vw;
+  border-radius: 10px;
+  background-color: #14202e;
+  margin: auto;
+}
+p.matchesHeading {
+    text-align: center;
+    padding: 1vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 2vw;
+    font-weight: bold;
+    letter-spacing: 1vw;
+    color: #ece7e1;
+    margin: 0;
+    border-bottom: 1px solid #233952;
+}
+p.matchContext1 {
+    padding: 1vw;
+    padding-bottom: 0vw;
+    padding-top: 2vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #ece7e1;
+    margin: 0;
+}
+.matchesGrid1 {
+    padding: 1vw;
+    width: 71vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    margin: 0;
+}
+.agent {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+}
+.opponent {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+}
+.acs {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+}
+.kda {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+}
+.plusminus {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+}
+.adr {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+}
+.hs {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1vw;
+    color: #ece7e1;
+}
+.agent1 {
+    margin: 0;
+    border-bottom: 1px solid #233952;
+}
+.agent1 img{
+    width: 2.1vw;
+    height: 2.1vw;
+}
+.opponent1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.acs1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.kda1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.plusminus1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.adr1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.hs1 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.agent2 {
+    margin: 0;
+    border-bottom: 1px solid #233952;
+}
+.agent2 img{
+    width: 2.1vw;
+    height: 2.1vw;
+}
+.opponent2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.acs2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.kda2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.plusminus2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.adr2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.hs2 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.agent3 {
+    margin: 0;
+    border-bottom: 1px solid #233952;
+}
+.agent3 img{
+    width: 2.1vw;
+    height: 2.1vw;
+}
+.opponent3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.acs3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.kda3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.plusminus3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.adr3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+.hs3 {
+    border-bottom: 1px solid #233952;
+    margin: 0;
+    font-family: 'Tungsten';
+    font-size: 2vw;
+    color: #eaeeb2;
+}
+p.matchContext2 {
+    padding: 1vw;
+    padding-bottom: 0vw;
+    padding-top: 2vw;
+    font-family: 'DIN Next LT Pro';
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #ece7e1;
+    margin: 0;
+}
+.matchesGrid2 {
+    padding: 1vw;
+    width: 71vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    margin: 0;
