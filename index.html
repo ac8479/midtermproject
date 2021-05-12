@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="homeStyle.css">
+    <link rel="stylesheet" href="glide.core.min.css">
+    <link rel="stylesheet" href="glide.theme.min.css">
     <style>
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -59,50 +61,66 @@
     </div>
     <div class="featuredPlayers">
       <p class="featuredPlayersTitle">FEATURED PLAYERS</p>
-      <div class="featuredPlayersGrid">
-        <div class="featuredPlayersBox1">
-        </div>
-        <div class="featuredPlayersCon2">
-          <div class="featuredPlayersBox2">
-            <a href="./tenzPage.html">
-            <img src="tenzpreview.png">
-            <p>TenZ</p>
-            </a>
+      <div class="featuredPlayersCarousel">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="featuredPlayersCon2">
+                  <div class="featuredPlayersBox2">
+                    <a href="./tenzPage.html">
+                    <img src="tenzpreview.png">
+                    <p>TenZ</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="featuredPlayersCon3">
+                  <div class="featuredPlayersBox3">
+                    <a href="./playerPage.html">
+                    <img src="wardellpreview.png">
+                    <p>WARDELL</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="featuredPlayersCon4">
+                  <div class="featuredPlayersBox4">
+                    <a href="./playerPage.html">
+                    <img src="asunapreview.png">
+                    <p>Asuna</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="featuredPlayersCon5">
+                  <div class="featuredPlayersBox5">
+                    <a href="./playerPage.html">
+                    <img src="babybaypreview.png">
+                    <p>babybay</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="featuredPlayersCon6">
+                  <div class="featuredPlayersBox6">
+                    <a href="./playerPage.html">
+                    <img src="hikopreview.png">
+                    <p>Hiko</p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="featuredPlayersCon3">
-          <div class="featuredPlayersBox3">
-            <a href="./playerPage.html">
-            <img src="wardellpreview.png">
-            <p>WARDELL</p>
-            </a>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="arrow left"></i></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="arrow right"></i></button>
           </div>
-        </div>
-        <div class="featuredPlayersCon4">
-          <div class="featuredPlayersBox4">
-            <a href="./playerPage.html">
-            <img src="asunapreview.png">
-            <p>Asuna</p>
-            </a>
-          </div>
-        </div>
-        <div class="featuredPlayersCon5">
-          <div class="featuredPlayersBox5">
-            <a href="./playerPage.html">
-            <img src="babybaypreview.png">
-            <p>babybay</p>
-            </a>
-          </div>
-        </div>
-        <div class="featuredPlayersCon6">
-          <div class="featuredPlayersBox6">
-            <a href="./playerPage.html">
-            <img src="hikopreview.png">
-            <p>Hiko</p>
-            </a>
-          </div>
-        </div>
-        <div class="featuredPlayersBox7">
         </div>
       </div>
     </div>
@@ -155,5 +173,13 @@
         </div>
       </div>
     </div>
+
+    <script src="script.js"> </script>
+    <script src="https://unpkg.com/@glidejs/glide"></script>
+    <script>
+      new Glide('.glide', {
+        perView: 3
+      }).mount()
+    </script>
   </body>
 </html>
